@@ -1,5 +1,5 @@
 package autostore;
 
-public class TooBigCarException extends Exception {
+public class TooBigCarException extends RuntimeException {
 
 }
