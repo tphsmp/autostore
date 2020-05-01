@@ -13,8 +13,8 @@ public class AutoStore {
             System.out.println("Unable to add " + car.getModel());
             throw new OutOfSpaceException();
         }
-        if (car.getWidth() > 2000) {
-            System.out.println("This car is too big! Unable to place it at showstage!");
+        if (car.getLength() > 4000) {
+            System.out.println(car.getModel()+ "is too big! Unable to place it at showstage!");
             throw new TooBigCarException();
         }
         cars.add(car);
